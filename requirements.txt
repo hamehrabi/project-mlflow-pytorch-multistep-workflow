@@ -1,8 +1,9 @@
 ### dependency
+mlflow
 tqdm
 pandas
 numpy
 PyYAML
 
 ### local packages -
-# -e . # << uncomment this to install from setup.py
+-e . # << uncomment this to install from setup.py

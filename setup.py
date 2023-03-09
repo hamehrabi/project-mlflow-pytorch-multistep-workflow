@@ -7,7 +7,11 @@ with open("README.md", "r", encoding="utf-8") as f:
 REPO_NAME = "REPO_NAME"
 AUTHOR_USER_NAME = "Hamed Mehrabi"
 SRC_REPO = "src"
-LIST_OF_REQUIREMENTS = []
+LIST_OF_REQUIREMENTS = ['mlflow',
+                        'tqdm',
+                        'pandas',
+                        'numpy',
+                        'PyYAML']
 
 
 setup(
@@ -17,7 +21,7 @@ setup(
     description="Template for python project",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
+    url=f"https://github.com/hamehrabi/project-mlflow-pytorch-multistep-workflow",
     author_email="mehrabi.hamed@outlook.com",
     packages=[SRC_REPO],
     license="MIT",
