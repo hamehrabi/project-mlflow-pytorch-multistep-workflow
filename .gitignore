@@ -140,4 +140,5 @@ configs/secrets.yaml
 # add your env folder here if its there
 data/
 research_env/mlruns/
+artifacts/
 
