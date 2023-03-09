@@ -5,3 +5,4 @@ source activate ./env
 ## pip install torch torchvision torchaudio #change it based on whether you want to use GPU or CPU
 conda install pytorch torchvision torchaudio cpuonly -c pytorch -y
 pip install -r requirements.txt
+conda env export > conda.yaml
