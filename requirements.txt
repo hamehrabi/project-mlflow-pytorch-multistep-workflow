@@ -4,6 +4,6 @@ tqdm
 pandas
 numpy
 PyYAML
-
+joblib
 ### local packages -
 -e . # << uncomment this to install from setup.py
